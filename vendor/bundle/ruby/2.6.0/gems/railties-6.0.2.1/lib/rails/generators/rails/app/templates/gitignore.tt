@@ -6,6 +6,7 @@
 
 # Ignore bundler config.
 /.bundle
+/.Facebook.env
 
 <% if sqlite3? -%>
 # Ignore the default SQLite database.
