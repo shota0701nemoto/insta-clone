@@ -5,6 +5,11 @@ ruby '2.6.3'
 gem "jquery-rails"
 gem 'bootstrap-sass', '3.3.7'
 gem 'bcrypt',         '3.1.12'
+gem 'devise'
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'dotenv-rails'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
@@ -34,6 +39,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+gem 'rails-controller-testing'
 end
 
 group :development do
